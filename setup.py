@@ -28,7 +28,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    install_requires=['setuptools', 'django-simple-captcha>=0.3.4', 'mezzanine']
+    install_requires=['setuptools', 'django-recaptcha', 'mezzanine']
 )
 
 # EOF
